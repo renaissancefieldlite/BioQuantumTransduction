@@ -4,7 +4,7 @@ Alignment model linking biosignal-like traces to a device-side coherence proxy.
 
 This repo now distinguishes:
 
-- `simulation_baseline`: synthetic biosignal alignment against a modeled carrier
+- `simulation_baseline`: synthetic biosignal alignment against a modeled transition cadence
 - `hardware_derived_model`: the same alignment logic applied to a
   calibration-anchored coherence proxy
 - `real_biosignal_validation`: pending
@@ -14,7 +14,7 @@ This repo now distinguishes:
 Whether alignment metrics discriminate between an aligned and misaligned
 biosignal under two conditions:
 
-1. a known simulation carrier
+1. a known simulation transition cadence
 2. a coherence proxy generated from device-style calibration parameters
 
 ## Quick Start
