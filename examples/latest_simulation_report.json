@@ -1,0 +1,17 @@
+{
+  "mode": "simulation",
+  "evidence_status": "simulation_baseline",
+  "aligned": {
+    "correlation": 0.967844180208805,
+    "phase_distance": 8.90179066180056,
+    "alignment_score": 0.0776651140287491
+  },
+  "misaligned": {
+    "correlation": 0.006424711009008086,
+    "phase_distance": 7.6042481058382165,
+    "alignment_score": -0.7540000995748136
+  },
+  "delta_alignment_score": 0.8316652136035627,
+  "schema_version": "rfl.bio_quantum_transduction.v2",
+  "next_step": "Replace synthetic biosignals with real captures aligned to a non-imposed device trace."
+}

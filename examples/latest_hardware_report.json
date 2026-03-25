@@ -1,0 +1,27 @@
+{
+  "mode": "hardware-derived",
+  "evidence_status": "hardware_derived_model",
+  "noise_summary": {
+    "mean_coherence_proxy": 0.00075,
+    "min_coherence_proxy": 0.0,
+    "max_coherence_proxy": 0.9,
+    "drift_span_ghz": 0.023593074013841253,
+    "depolarization_events": 14,
+    "readout_flip_events": 23,
+    "leakage_events": 10,
+    "neighbor_bleed_events": 89
+  },
+  "aligned": {
+    "correlation": 0.007957854867301575,
+    "phase_distance": 10.266090692076567,
+    "alignment_score": -1.0186512143403552
+  },
+  "misaligned": {
+    "correlation": 0.04739431619761782,
+    "phase_distance": 6.4014894093643395,
+    "alignment_score": -0.5927546247388162
+  },
+  "delta_alignment_score": -0.425896589601539,
+  "schema_version": "rfl.bio_quantum_transduction.v2",
+  "next_step": "Replace synthetic biosignals with real captures aligned to a non-imposed device trace."
+}
