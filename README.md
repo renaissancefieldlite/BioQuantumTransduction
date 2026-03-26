@@ -1,6 +1,8 @@
 # BioQuantumTransduction
 
-Alignment model linking biosignal-like traces to a device-side coherence proxy.
+This is the biosignal coupling layer for the 0.67 Hz stack.
+
+It asks whether biological-style traces can lock onto a coherence-bearing signal strongly enough to matter, then checks that question under both synthetic and calibration-anchored conditions.
 
 This repo now distinguishes:
 
